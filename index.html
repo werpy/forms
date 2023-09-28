@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form of feed back</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script&family=Montserrat:wght@400;700&family=Mynerve&family=Nunito&family=Open+Sans:wght@600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;300&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <form class="form_back">
+        <div class="form">
+            <div class="form_content">
+                <h1 class="header">Форма зворотнього зв'язку</h1>
+                <div class="col-1">
+                    <label>
+                        <p class="text">Назва вашої організації/ваше ім'я:</p>
+                        <input type="text" class="shadow, box1">
+                    </label>
+                </div>
+                <div class="col-2">
+                    <label>
+                        <p class="text">Ваш телефон:</p>
+                        <input type="text" class="shadow, box1">
+                    </label>
+                </div>
+                <div class="col-3">
+                    <label>
+                        <p class="text">Ваш e-mail:</p>
+                        <input type="text" class="shadow, box1">
+                    </label>
+                </div>
+
+                <h3 class="header_2">Виберіть тему для письма і напишіть повідомлення</h3>
+                <div class="col-4">
+                    <label for="theme">
+                        <p class="text">Тема письма:</p>
+                        <select name="theme" id="theme" class="select_option">
+                            <option value="theme">-Вибрати тему-</option>
+                            <option value="organisation">Організаційні питання</option>
+                            <option value="quations">Часті запитання</option>
+                            <option value="wishes">Побажання</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="col-5">
+                    <label>
+                        <p class="text">Повідомлення:</p>
+                        <textarea name="feed_back" id="feed" cols="30" rows="8"></textarea>
+                    </label>
+                </div>
+                <h3 class="header_2">Вирішіть приклад та натисніть "Відправити"</h3>
+                <div class="col-6">
+                    <label>
+                        <p class="text">3 + 7</p>
+                        <input type="text" class="shadow, box1"><br>
+                        <input class="btn" type="submit" value="Відправити" id="btn_resizing">
+                        <input class="btn" type="reset" value="Очистити" id="btn_resizing">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
